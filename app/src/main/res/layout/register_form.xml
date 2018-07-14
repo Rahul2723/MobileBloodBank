@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Register Form"
+   android:gravity="center"
+    android:padding="10dp"
+    android:textSize="20sp"
+    android:background="@color/colorAccent"
+    android:textColor="#ffffff"
+
+    />
+
+
+<EditText
+    android:id="@+id/username"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:hint="Username"
+    android:inputType="text"
+    android:background="@drawable/select"
+    android:padding="8dp"/>
+
+<EditText
+    android:id="@+id/password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:background="@drawable/select"
+    android:padding="8dp"/>
+
+<EditText
+    android:id="@+id/email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:hint="Email"
+    android:inputType="textEmailAddress"
+    android:background="@drawable/select"
+    android:padding="8dp"/>
+
+<EditText
+    android:id="@+id/address"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:hint="Address"
+    android:inputType="textPostalAddress"
+    android:background="@drawable/select"
+    android:padding="8dp"/>
+
+<EditText
+    android:id="@+id/phone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:hint="Phone no"
+    android:inputType="phone"
+    android:maxLength="10"
+    android:background="@drawable/select"
+    android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Age"
+        android:inputType="number"
+        android:background="@drawable/select"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/bloodgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Blood Group"
+        android:inputType="text"
+        android:background="@drawable/select"
+        android:padding="8dp"/>
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:hint="Gender" />
+
+
+<RadioGroup
+    android:id="@+id/group"
+    android:layout_margin="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <RadioButton
+        android:id="@+id/male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:hint="male " />
+
+    <RadioButton
+        android:id="@+id/female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="female" />
+
+</RadioGroup>
+
+<ImageView
+    android:src="@drawable/ic_close_black_24dp"
+    android:id="@+id/image1"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_margin="20dp"
+    />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <Button
+        android:id="@+id/register"
+        android:text="Register"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/cancel"
+        android:text="Cancel"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"/>
+</LinearLayout>
+</LinearLayout>
+    </ScrollView>
